@@ -1,0 +1,17 @@
+Model,Class/Metric Type,Accuracy,Precision,Recall,F1-Score,CV Accuracy
+Logistic Regression,Overall,0.725,0.5322784810126582,0.725,0.6138686131386861,0.703125
+Logistic Regression,Class: Insomnia,,0.0,0.0,0.0,
+Logistic Regression,Class: None,,0.7341772151898734,1.0,0.8467153284671532,
+Logistic Regression,Class: Sleep Apnea,,0.0,0.0,0.0,
+SVM,Overall,0.725,0.525625,0.725,0.6094202898550725,0.725
+SVM,Class: Insomnia,,0.0,0.0,0.0,
+SVM,Class: None,,0.725,1.0,0.8405797101449275,
+SVM,Class: Sleep Apnea,,0.0,0.0,0.0,
+Random Forest,Overall,0.725,0.525625,0.725,0.6094202898550725,0.725
+Random Forest,Class: Insomnia,,0.0,0.0,0.0,
+Random Forest,Class: None,,0.725,1.0,0.8405797101449275,
+Random Forest,Class: Sleep Apnea,,0.0,0.0,0.0,
+XGBoost,Overall,0.7,0.5957207207207207,0.7,0.6295454545454546,0.6375
+XGBoost,Class: Insomnia,,0.3333333333333333,0.125,0.18181818181818182,
+XGBoost,Class: None,,0.7297297297297297,0.9310344827586207,0.8181818181818182,
+XGBoost,Class: Sleep Apnea,,0.0,0.0,0.0,
