@@ -44,43 +44,7 @@ and cross-validation performance.
 The dataset includes demographic, lifestyle, sleep-related, and
 health-related attributes.
 
-### Features
 
-  -----------------------------------------------------------------------
-  Feature                             Description
-  ----------------------------------- -----------------------------------
-  Person ID                           Unique identifier for each
-                                      individual
-
-  Gender                              Gender of the individual
-
-  Age                                 Age in years
-
-  Occupation                          Occupational category
-
-  Sleep Duration                      Average sleep duration in hours
-
-  Quality of Sleep                    Self-reported sleep quality on a
-                                      1--10 scale
-
-  Physical Activity Level             Physical activity in minutes per
-                                      day
-
-  Stress Level                        Stress level on a 1--10 scale
-
-  BMI Category                        Body Mass Index category
-
-  Blood Pressure                      Blood pressure in
-                                      systolic/diastolic format
-
-  Heart Rate                          Heart rate in beats per minute
-
-  Daily Steps                         Number of steps per day
-
-  Sleep Disorder                      Target category; missing values
-                                      were represented as `None` during
-                                      preprocessing
-  -----------------------------------------------------------------------
 
 ## Data Preprocessing
 
@@ -246,19 +210,4 @@ features among the most influential:
     information and predicts a sleep-disorder category.
 -   Explore additional health and lifestyle features where available.
 
-## Project Team
 
-This mini project was completed as part of **BAI702 -- Machine Learning
-II**, Seventh Semester, Bachelor of Engineering in Computer Science and
-Engineering (Artificial Intelligence and Machine Learning), AMC
-Engineering College, Bengaluru, during the academic year 2026--27.
-
-| Team Member |
-|---|
-| Sandhya D |
-| Sanjana M P |
-| Shravani V |
-| Teja Shree V |
-
-**Project Guide:** Prof. Bhavya K Bharathan, Assistant Professor,
-Department of CSE (AIML).
