@@ -7,8 +7,28 @@ An end-to-end Machine Learning pipeline to analyze sleep health and predict vari
 - **Multiple Classifier Evaluations**: Compares performance across **Logistic Regression**, **SVM**, **Random Forest**, and **XGBoost**.
 - **Rich Visualizations**: Outputs correlation summaries, model metric comparison bar charts, and confusion matrices.
 
-## 📊 Model Evaluation Results
-The models are cross-validated and tested on standard stratified splits. Detailed classification reports and visual diagrams are generated dynamically.
+## 📊 Detailed Model Evaluation Results
+
+Below is the complete classification report and performance breakdown across all models, including both overall metrics and class-specific metrics:
+
+| Model | Class / Metric Type | Accuracy | Precision | Recall | F1-Score | CV Accuracy |
+| :--- | :--- | :---: | :---: | :---: | :---: | :---: |
+| **Logistic Regression** | Overall | 0.725 | 0.5323 | 0.7250 | 0.6139 | 0.7031 |
+| | Class: Insomnia | - | 0.0000 | 0.0000 | 0.0000 | - |
+| | Class: None | - | 0.7342 | 1.0000 | 0.8467 | - |
+| | Class: Sleep Apnea | - | 0.0000 | 0.0000 | 0.0000 | - |
+| **SVM** | Overall | 0.725 | 0.5256 | 0.7250 | 0.6094 | 0.7250 |
+| | Class: Insomnia | - | 0.0000 | 0.0000 | 0.0000 | - |
+| | Class: None | - | 0.7250 | 1.0000 | 0.8406 | - |
+| | Class: Sleep Apnea | - | 0.0000 | 0.0000 | 0.0000 | - |
+| **Random Forest** | Overall | 0.725 | 0.5256 | 0.7250 | 0.6094 | 0.7250 |
+| | Class: Insomnia | - | 0.0000 | 0.0000 | 0.0000 | - |
+| | Class: None | - | 0.7250 | 1.0000 | 0.8406 | - |
+| | Class: Sleep Apnea | - | 0.0000 | 0.0000 | 0.0000 | - |
+| **XGBoost** | Overall | 0.700 | 0.5957 | 0.7000 | 0.6295 | 0.6375 |
+| | Class: Insomnia | - | 0.3333 | 0.1250 | 0.1818 | - |
+| | Class: None | - | 0.7297 | 0.9310 | 0.8182 | - |
+| | Class: Sleep Apnea | - | 0.0000 | 0.0000 | 0.0000 | - |
 
 ## 📂 Files inside the Repository
 - `sleep_disorder_detection.py`: Complete executable Python pipeline script.
